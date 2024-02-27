@@ -1,0 +1,76 @@
+﻿
+    @font-face {
+      font-family: "Whimsy TT";
+      font-style: normal;
+      font-weight: normal;
+      src: local("Whimsy TT"), url("../PacmanGame/fonts/whimsytt.ttf") format("truetype");
+    }
+    
+    body {
+      font-family: "Whimsy TT", sans-serif;
+    }
+    #div{
+      position: absolute;
+      display: flex;
+      margin-left:23%;
+      margin-top: 35%;
+    }
+    #highScores{
+      position: relative;
+      box-shadow: inset 0 0 0 999px rgb(0, 0, 0);
+      border: 1em solid rgba(0, 0, 0, 0.4);
+      /* border: black 20px solid; */
+      margin-left: 30%;
+      margin-top: 2%;
+      width: 570px;
+          height: 720px;
+    }
+    #HiGH_SCORES{
+      position: absolute;
+      color: white;
+      font-size:400%;
+      margin-top: 10%;
+      margin-left: 18%;
+    }
+    .n_s{
+      color: yellow;
+      font-size:200% ;
+      margin-top: -10%;
+    }
+    .n{
+      margin-right: 80%;
+    }
+    .a{
+      position: absolute;
+      color:rgba(255, 255, 255, 0.864) ;
+      text-decoration: none;
+      bottom: 50;
+      right: 50;
+      font-size:200%;
+    }
+    .a:hover{
+      cursor: pointer;
+      line-height: 1.5em;
+      transition: all 0.2s;
+    }
+    .player_i{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2%;
+    }
+    .name_points{
+      color: white;
+      font-size: 150%;
+    }
+    .allPlayers{
+     margin-top: 43%;
+    }
+    .playerName{
+      margin-left: 10%;
+    }
+     .playerPoints{
+      margin-right:10%;
+    } 
+
+    
+    

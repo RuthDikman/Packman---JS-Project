@@ -1,0 +1,153 @@
+﻿
+@font-face {
+  font-family: "Whimsy TT";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Whimsy TT"), url("fonts/whimsytt.ttf") format("truetype");
+}
+
+body {
+  font-family: "Whimsy TT", sans-serif;
+}
+    .box{
+      width: 30px; 
+      height: 30px; 
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #row{
+        display: flex;
+       
+    }
+    #matrix{
+      box-shadow: inset 0 0 0 999px rgb(0, 0, 0);
+      border: 1em solid rgba(0, 0, 0, 0.4);
+      /* border: black 20px solid; */
+      margin-left: 30%;
+      margin-top: 2%;
+      width: 570px;
+    }
+    .dot{
+      color: #ffff;
+     width:20%;
+    }
+    .bigDot{
+      color: #ffff;
+     width:40%;
+    }
+    #user{
+      width:70%;
+    }
+    .a{
+      width:70%;
+      z-index: -1;
+    }
+    #score{
+      padding-bottom: 0;
+      height: 60px;
+      width:600px;
+      background-color: black;
+      border-top: black 5px solid;
+      margin-left: 30%;
+      display: flex;
+      justify-content:space-around;
+      font-size:x-large;
+      color: white;
+    }
+    .divimageLevel{
+      display: flex;
+      justify-content: space-around;
+    }
+.saveName{
+  height: 50px;
+  width:200px;
+  border: black 5px solid;
+  margin-left: 30%;
+font-size: xx-large;
+text-align: center;
+}
+#winDiv{
+  background-color: black;
+  border: grey 20px solid ;
+  margin-left: 30%;
+  margin-top: 2%;
+  width: 570px;
+  height: 730px;
+}
+.logIn{
+  color: yellow;
+  font-size:700%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+.set_back_div{
+  display: flex;
+  justify-content: space-around;
+}
+.set,.back{
+  color: white;
+  font-size:400%;
+}
+.back{
+  margin-top: 11%;
+  text-decoration: none;
+
+}
+.set:hover,.back:hover{
+  cursor: pointer;
+  line-height: 1.5em;
+  transition: all 0.2s;
+  outline: none;
+}
+#startImg{
+  margin-left:37%;
+  width: 25%;
+}
+.logInImg{
+  width: 20%;
+  margin-left: 38%;
+}
+.bonus{
+  position: absolute;
+  top:30%;
+  left: 12%;
+  width:15%;
+  transform: rotate(-20deg);
+  transition: all 0.2s;
+}  
+.gamer{
+  position: absolute;
+  top:30%;
+  left: 33%;
+  width:25%;
+  z-index: 110;
+}
+.winner{
+  position: absolute;
+  top:32%;
+  left: 31%;
+  width:30%;
+  z-index: 110;
+}
+.playGameImg{
+  position: absolute;
+  top:28%;
+  left: 38%;
+  width:15%;
+  z-index: 110;
+}
+@media (max-width: 1200px){
+  .gamer{
+    left: 44%;
+  }
+  .winner{
+    left: 40%;
+  }
+  .playGameImg{
+    left: 46%;
+  }
+}
+
+
