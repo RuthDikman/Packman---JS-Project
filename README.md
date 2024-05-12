@@ -1,11 +1,11 @@
-# JavaScript Pacman Game
+# Pacman Game
 
 Welcome to the Pacman game! Embark on an adventure through mazes filled with pellets and ghosts, aiming for the highest score and endless fun!
 
 
 ## About the Game
 
-Packman is a classic arcade game where the player controls a character (Packman) through a maze, eating pellets. The objective is to eat all the pellets while avoiding being caught by the ghosts roaming the maze. The game offers an immersive experience with multiple levels of increasing difficulty and challenges.
+Packman is a classic arcade game where the player controls a character (Packman) through a maze, eating pellets. The objective is to eat all the pellets while avoiding being caught by the ghosts roaming the maze. 
 
 ## Technologies Used
 
